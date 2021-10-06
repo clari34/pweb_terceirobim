@@ -24,7 +24,7 @@
 //precisamos chamar esta página para realizarmos as queries com o banco
                 include 'conexao.php';
 // Select que traz todos os usuários cadastrados no banco de dados
-                $select = "SELECT * FROM USUARIO";
+                $select = "SELECT * FROM usuario";
                 $result = mysqli_query($connect, $select); //resultado do select
 
 //Enquanto existir usuários no banco ele insere uma nova linha e exibe os dados
