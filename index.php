@@ -119,7 +119,7 @@
 
     });
     function deleteUserById(id) {
-    console.log("entrou");
+    console.log("logado");
     $.ajax({
       type: 'POST',
       dataType: 'json',
